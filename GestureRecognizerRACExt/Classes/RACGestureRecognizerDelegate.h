@@ -10,4 +10,6 @@
 
 @interface RACGestureRecognizerDelegate : NSObject <UIGestureRecognizerDelegate>
 
+- (void)rac_gestureDelegate:(UIGestureRecognizer *)recognizer;
+
 @end

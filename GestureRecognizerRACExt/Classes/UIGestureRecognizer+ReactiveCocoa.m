@@ -10,10 +10,27 @@
 
 #import <objc/runtime.h>
 #import <ReactiveCocoa.h>
+#import "RACGestureRecognizerDelegate.h"
 
 @implementation UIGestureRecognizer (ReactiveCocoa)
 
 @dynamic rac_gestureDelegate, rac_subject;
+
+# pragma mark - Public
+
+- (RACSignal *)rac_signal {
+    return self.rac_subject;
+}
+
+# pragma mark - Initialization
+
+- (void)rac_initializeRAC {
+    self.rac_gestureDelegate = [[RACGestureRecognizerDelegate alloc] init];
+    self.delegate = self.rac_gestureDelegate;
+    self.rac_subject = [RACSubject subject];
+}
+
+# pragma mark - AssociatedObject
 
 - (void)setRac_gestureDelegate:(RACGestureRecognizerDelegate *)rac_gestureDelegate {
     objc_setAssociatedObject(self, @selector(rac_gestureDelegate), rac_gestureDelegate, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
