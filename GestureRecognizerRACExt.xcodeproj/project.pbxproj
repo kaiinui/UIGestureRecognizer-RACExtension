@@ -25,6 +25,7 @@
 		D403CFF619BB4495004ABA5B /* GestureRecognizerRACExtTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D403CFF519BB4495004ABA5B /* GestureRecognizerRACExtTests.m */; };
 		D403D01219BC2159004ABA5B /* UIGestureRecognizer+ReactiveCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = D403D01119BC2159004ABA5B /* UIGestureRecognizer+ReactiveCocoa.m */; };
 		D403D01519BC24B8004ABA5B /* RACGestureRecognizerActionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D403D01419BC24B8004ABA5B /* RACGestureRecognizerActionHandler.m */; };
+		D403D01819BC547B004ABA5B /* UIGestureRecognizer+ReactiveCocoaProtected.m in Sources */ = {isa = PBXBuildFile; fileRef = D403D01719BC547B004ABA5B /* UIGestureRecognizer+ReactiveCocoaProtected.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		D403D01119BC2159004ABA5B /* UIGestureRecognizer+ReactiveCocoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+ReactiveCocoa.m"; sourceTree = "<group>"; };
 		D403D01319BC24B8004ABA5B /* RACGestureRecognizerActionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACGestureRecognizerActionHandler.h; sourceTree = "<group>"; };
 		D403D01419BC24B8004ABA5B /* RACGestureRecognizerActionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACGestureRecognizerActionHandler.m; sourceTree = "<group>"; };
+		D403D01619BC547B004ABA5B /* UIGestureRecognizer+ReactiveCocoaProtected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+ReactiveCocoaProtected.h"; sourceTree = "<group>"; };
+		D403D01719BC547B004ABA5B /* UIGestureRecognizer+ReactiveCocoaProtected.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+ReactiveCocoaProtected.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +179,8 @@
 			children = (
 				D403D01019BC2159004ABA5B /* UIGestureRecognizer+ReactiveCocoa.h */,
 				D403D01119BC2159004ABA5B /* UIGestureRecognizer+ReactiveCocoa.m */,
+				D403D01619BC547B004ABA5B /* UIGestureRecognizer+ReactiveCocoaProtected.h */,
+				D403D01719BC547B004ABA5B /* UIGestureRecognizer+ReactiveCocoaProtected.m */,
 				D403D01319BC24B8004ABA5B /* RACGestureRecognizerActionHandler.h */,
 				D403D01419BC24B8004ABA5B /* RACGestureRecognizerActionHandler.m */,
 			);
@@ -348,6 +353,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D403CFE119BB4495004ABA5B /* KIViewController.m in Sources */,
+				D403D01819BC547B004ABA5B /* UIGestureRecognizer+ReactiveCocoaProtected.m in Sources */,
 				D403CFDB19BB4495004ABA5B /* KIAppDelegate.m in Sources */,
 				D403D01519BC24B8004ABA5B /* RACGestureRecognizerActionHandler.m in Sources */,
 				D403D01219BC2159004ABA5B /* UIGestureRecognizer+ReactiveCocoa.m in Sources */,

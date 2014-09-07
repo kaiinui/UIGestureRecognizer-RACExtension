@@ -12,9 +12,9 @@
 #import <ReactiveCocoa.h>
 #import "RACGestureRecognizerActionHandler.h"
 
-@implementation UIGestureRecognizer (ReactiveCocoa)
+#import "UIGestureRecognizer+ReactiveCocoaProtected.h"
 
-@dynamic rac_gestureHandler, rac_subject;
+@implementation UIGestureRecognizer (ReactiveCocoa)
 
 # pragma mark - Public
 
@@ -29,29 +29,11 @@
     return self.rac_subject;
 }
 
-# pragma mark - Initialization
+# pragma mark - Helpers (Initialization)
 
 - (void)rac_initializeRAC {
     self.rac_gestureHandler = [[RACGestureRecognizerActionHandler alloc] init];
     self.rac_subject = [RACSubject subject];
-}
-
-# pragma mark - AssociatedObject
-
-- (void)setRac_gestureHandler:(RACGestureRecognizerActionHandler *)rac_gestureDelegate {
-    objc_setAssociatedObject(self, @selector(rac_gestureHandler), rac_gestureDelegate, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
-}
-
-- (RACGestureRecognizerActionHandler *)rac_gestureHandler {
-    return objc_getAssociatedObject(self, @selector(rac_gestureHandler));
-}
-
-- (void)setRac_subject:(RACSubject *)rac_subject {
-    objc_setAssociatedObject(self, @selector(rac_subject), rac_subject, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
-}
-
-- (RACSubject *)rac_subject {
-    return objc_getAssociatedObject(self, @selector(rac_subject));
 }
 
 @end

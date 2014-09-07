@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@class RACSubject;
 @class RACSignal;
-@class RACGestureRecognizerActionHandler;
 
 @interface UIGestureRecognizer (ReactiveCocoa) // TODO: To make them private, separate them into a category.
 
@@ -31,17 +29,5 @@
     }];
  */
 - (RACSignal *)rac_signal;
-
-# pragma mark - Privates
-
-/**
- private: To retain UIGestureDelegate. The GestureRecognizer's delegate will be
- */
-@property (nonatomic, strong) RACGestureRecognizerActionHandler *rac_gestureHandler;
-
-/**
- protected: To retain subject while recognizing gestures.
- */
-@property (nonatomic, strong) RACSubject *rac_subject;
 
 @end
