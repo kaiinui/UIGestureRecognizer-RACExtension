@@ -8,6 +8,9 @@
 
 #import "KIViewController.h"
 
+#import "UIGestureRecognizer+ReactiveCocoa.h"
+#import <ReactiveCocoa.h>
+
 @interface KIViewController ()
 
 @end
@@ -17,6 +20,30 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    UIPanGestureRecognizer *recognizer = [UIPanGestureRecognizer rac_recognizer];
+    [[recognizer rac_signal] subscribeNext:^(id x) {
+        UIPanGestureRecognizer *recognizer = x;
+        switch (recognizer.state) {
+            case UIGestureRecognizerStateBegan:
+                NSLog(@"Began");
+                break;
+            case UIGestureRecognizerStatePossible:
+                NSLog(@"possible");
+                break;
+            case UIGestureRecognizerStateChanged:
+                NSLog(@"changed");
+                break;
+            case UIGestureRecognizerStateEnded:
+                NSLog(@"end");
+                break;
+            default:
+                break;
+        }
+    }];
+    
+    [self.view addGestureRecognizer:recognizer];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
