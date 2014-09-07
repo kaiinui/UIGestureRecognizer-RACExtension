@@ -3,7 +3,7 @@
 #import <Expecta.h>
 
 #import "UIGestureRecognizer+ReactiveCocoa.h"
-#import "RACGestureRecognizerDelegate.h"
+#import "RACGestureRecognizerActionHandler.h"
 #import <ReactiveCocoa.h>
 
 SpecBegin(UIGestureRecognizer)
@@ -13,9 +13,9 @@ describe(@"UIGestureRecognizer", ^{
         describe(@"rac_gestureDelegate", ^{
             it(@"Can set & get rac_gestureDelegate", ^{
                 UIGestureRecognizer *recognizer = [[UIGestureRecognizer alloc] init];
-                RACGestureRecognizerDelegate *delegate = [[RACGestureRecognizerDelegate alloc] init];
-                recognizer.rac_gestureDelegate = delegate;
-                expect(recognizer.rac_gestureDelegate).to.equal(delegate);
+                RACGestureRecognizerActionHandler *handler = [[RACGestureRecognizerActionHandler alloc] init];
+                recognizer.rac_gestureHandler = handler;
+                expect(recognizer.rac_gestureHandler).to.equal(handler);
             });
         });
         
@@ -26,6 +26,29 @@ describe(@"UIGestureRecognizer", ^{
                 recognizer.rac_subject = subject;
                 expect(recognizer.rac_subject).to.equal(subject);
             });
+        });
+    });
+    
+    describe(@"- rac_initializeRAC", ^{
+        it(@"Should initialize its properties", ^{
+            UIGestureRecognizer *recognizer = [[UIGestureRecognizer alloc] init];
+            [recognizer rac_initializeRAC];
+            expect(recognizer.rac_gestureHandler).to.beTruthy;
+            expect(recognizer.rac_subject).to.beTruthy;
+        });
+    });
+    
+    describe(@"+ rac_recognizer", ^{
+        it(@"Should instantiate UIGestureRecognizer and initialize properly", ^{
+            UIGestureRecognizer *recognizer = [UIGestureRecognizer rac_recognizer];
+            expect(recognizer.rac_gestureHandler).to.beTruthy;
+            expect(recognizer.rac_subject).to.beTruthy;
+        });
+        
+        it(@"Should instantiate its subclass", ^{
+            UITapGestureRecognizer *recognizer = [UITapGestureRecognizer rac_recognizer];
+            recognizer.numberOfTapsRequired = 1;
+            expect(recognizer.numberOfTapsRequired).to.equal(1);
         });
     });
 });

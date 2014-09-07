@@ -24,7 +24,7 @@
 		D403CFF419BB4495004ABA5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D403CFF219BB4495004ABA5B /* InfoPlist.strings */; };
 		D403CFF619BB4495004ABA5B /* GestureRecognizerRACExtTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D403CFF519BB4495004ABA5B /* GestureRecognizerRACExtTests.m */; };
 		D403D01219BC2159004ABA5B /* UIGestureRecognizer+ReactiveCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = D403D01119BC2159004ABA5B /* UIGestureRecognizer+ReactiveCocoa.m */; };
-		D403D01519BC24B8004ABA5B /* RACGestureRecognizerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D403D01419BC24B8004ABA5B /* RACGestureRecognizerDelegate.m */; };
+		D403D01519BC24B8004ABA5B /* RACGestureRecognizerActionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D403D01419BC24B8004ABA5B /* RACGestureRecognizerActionHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,8 +63,8 @@
 		D403CFF519BB4495004ABA5B /* GestureRecognizerRACExtTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureRecognizerRACExtTests.m; sourceTree = "<group>"; };
 		D403D01019BC2159004ABA5B /* UIGestureRecognizer+ReactiveCocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+ReactiveCocoa.h"; sourceTree = "<group>"; };
 		D403D01119BC2159004ABA5B /* UIGestureRecognizer+ReactiveCocoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+ReactiveCocoa.m"; sourceTree = "<group>"; };
-		D403D01319BC24B8004ABA5B /* RACGestureRecognizerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACGestureRecognizerDelegate.h; sourceTree = "<group>"; };
-		D403D01419BC24B8004ABA5B /* RACGestureRecognizerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACGestureRecognizerDelegate.m; sourceTree = "<group>"; };
+		D403D01319BC24B8004ABA5B /* RACGestureRecognizerActionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACGestureRecognizerActionHandler.h; sourceTree = "<group>"; };
+		D403D01419BC24B8004ABA5B /* RACGestureRecognizerActionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACGestureRecognizerActionHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,8 +176,8 @@
 			children = (
 				D403D01019BC2159004ABA5B /* UIGestureRecognizer+ReactiveCocoa.h */,
 				D403D01119BC2159004ABA5B /* UIGestureRecognizer+ReactiveCocoa.m */,
-				D403D01319BC24B8004ABA5B /* RACGestureRecognizerDelegate.h */,
-				D403D01419BC24B8004ABA5B /* RACGestureRecognizerDelegate.m */,
+				D403D01319BC24B8004ABA5B /* RACGestureRecognizerActionHandler.h */,
+				D403D01419BC24B8004ABA5B /* RACGestureRecognizerActionHandler.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -349,7 +349,7 @@
 			files = (
 				D403CFE119BB4495004ABA5B /* KIViewController.m in Sources */,
 				D403CFDB19BB4495004ABA5B /* KIAppDelegate.m in Sources */,
-				D403D01519BC24B8004ABA5B /* RACGestureRecognizerDelegate.m in Sources */,
+				D403D01519BC24B8004ABA5B /* RACGestureRecognizerActionHandler.m in Sources */,
 				D403D01219BC2159004ABA5B /* UIGestureRecognizer+ReactiveCocoa.m in Sources */,
 				D403CFD719BB4495004ABA5B /* main.m in Sources */,
 			);

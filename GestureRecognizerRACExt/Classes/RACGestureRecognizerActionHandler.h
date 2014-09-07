@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface RACGestureRecognizerDelegate : NSObject <UIGestureRecognizerDelegate>
+@interface RACGestureRecognizerActionHandler : NSObject
 
-- (void)rac_gestureDelegate:(UIGestureRecognizer *)recognizer;
+- (void)rac_signalGesture:(UIGestureRecognizer *)recognizer;
 
 @end

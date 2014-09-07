@@ -6,13 +6,13 @@
 //  Copyright (c) 2014年 kaiinui. All rights reserved.
 //
 
-#import "RACGestureRecognizerDelegate.h"
+#import "RACGestureRecognizerActionHandler.h"
 #import "UIGestureRecognizer+ReactiveCocoa.h"
 #import <ReactiveCocoa.h>
 
-@implementation RACGestureRecognizerDelegate
+@implementation RACGestureRecognizerActionHandler
 
-- (void)rac_gestureDelegate:(UIGestureRecognizer *)recognizer {
+- (void)rac_signalGesture:(UIGestureRecognizer *)recognizer {
     [[recognizer rac_subject] sendNext:recognizer];
 }
 

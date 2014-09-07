@@ -10,7 +10,7 @@
 
 @class RACSubject;
 @class RACSignal;
-@class RACGestureRecognizerDelegate;
+@class RACGestureRecognizerActionHandler;
 
 /* TODO: NO DELEGATE! Just set a target and an action! */
 
@@ -19,7 +19,7 @@
 /**
  private: To retain UIGestureDelegate. The GestureRecognizer's delegate will be
  */
-@property (nonatomic, strong) RACGestureRecognizerDelegate *rac_gestureDelegate;
+@property (nonatomic, strong) RACGestureRecognizerActionHandler *rac_gestureHandler;
 
 /**
  protected: To retain subject while recognizing gestures.
@@ -36,5 +36,10 @@
  public: RACSignal from the GestureRecognizer.
  */
 - (RACSignal *)rac_signal;
+
+/**
+ public: Instantiate the recognizer.
+ */
++ (instancetype)rac_recognizer;
 
 @end
