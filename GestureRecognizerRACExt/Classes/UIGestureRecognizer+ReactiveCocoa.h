@@ -10,6 +10,6 @@
 
 @interface UIGestureRecognizer (ReactiveCocoa)
 
-@property (nonatomic, strong) NSNumber *gestureDelegate;
+@property (nonatomic, strong) NSNumber *rac_gestureDelegate;
 
 @end

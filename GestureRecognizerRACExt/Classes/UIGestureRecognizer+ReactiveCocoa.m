@@ -13,6 +13,14 @@
 
 @implementation UIGestureRecognizer (ReactiveCocoa)
 
-@dynamic gestureDelegate;
+@dynamic rac_gestureDelegate;
+
+- (void)setRac_gestureDelegate:(NSNumber *)rac_gestureDelegate {
+    objc_setAssociatedObject(self, @selector(rac_gestureDelegate), rac_gestureDelegate, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
+- (NSNumber *)rac_gestureDelegate {
+    return objc_getAssociatedObject(self, @selector(rac_gestureDelegate));
+}
 
 @end
