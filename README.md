@@ -1,6 +1,8 @@
 UIGestureRecognizer-RACExtension
 ================================
 
+![](http://img.shields.io/cocoapods/v/UIGestureRecognizer+ReactiveCocoa.svg?style=flat)
+
 Handle gesture events as ReactiveCocoa signals!
 
 ```objc
