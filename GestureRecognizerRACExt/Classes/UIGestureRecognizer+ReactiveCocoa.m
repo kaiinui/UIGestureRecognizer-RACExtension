@@ -15,11 +15,11 @@
 
 @dynamic rac_gestureDelegate, rac_subject;
 
-- (void)setRac_gestureDelegate:(id<UIGestureRecognizerDelegate>)rac_gestureDelegate {
+- (void)setRac_gestureDelegate:(RACGestureRecognizerDelegate *)rac_gestureDelegate {
     objc_setAssociatedObject(self, @selector(rac_gestureDelegate), rac_gestureDelegate, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
-- (id<UIGestureRecognizerDelegate>)rac_gestureDelegate {
+- (RACGestureRecognizerDelegate *)rac_gestureDelegate {
     return objc_getAssociatedObject(self, @selector(rac_gestureDelegate));
 }
 
