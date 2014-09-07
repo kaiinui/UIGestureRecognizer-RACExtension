@@ -1,5 +1,5 @@
-UIGestureRecognizer-RACExtension
-================================
+UIGestureRecognizer+ReactiveCocoa.h
+===================================
 
 ![](http://img.shields.io/cocoapods/v/UIGestureRecognizer+ReactiveCocoa.svg?style=flat)
 
