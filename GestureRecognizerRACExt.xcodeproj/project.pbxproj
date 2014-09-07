@@ -1,1231 +1,577 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>4A42FF94560B45849A8CFEC3</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-GestureRecognizerRACExt-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>6C93ECF2DD8F4D5CBCC60C32</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-GestureRecognizerRACExt.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods-GestureRecognizerRACExt.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7755645B98A34AF6A9919EB2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-GestureRecognizerRACExtTests.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods-GestureRecognizerRACExtTests.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>80EE27DF728F42ACA567ADBE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>81E2C227E8B449E390C07B3C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>86C062D17EE946BB925F345C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-GestureRecognizerRACExtTests-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>87DEC1C1BE6040F498D57ACE</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-GestureRecognizerRACExt.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>BBABFB071F364E9BA851A261</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-GestureRecognizerRACExtTests.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>BE317B7817F04CEE9AC2B7EA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>87DEC1C1BE6040F498D57ACE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C3B9D976BC4A4A258D219C7D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BBABFB071F364E9BA851A261</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D403CFBE19BB4494004ABA5B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D403CFD019BB4495004ABA5B</string>
-				<string>D403CFEF19BB4495004ABA5B</string>
-				<string>D403CFC919BB4495004ABA5B</string>
-				<string>D403CFC819BB4495004ABA5B</string>
-				<string>6C93ECF2DD8F4D5CBCC60C32</string>
-				<string>7755645B98A34AF6A9919EB2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D403CFBF19BB4494004ABA5B</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>CLASSPREFIX</key>
-				<string>KI</string>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>kaiinui</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>D403CFE719BB4495004ABA5B</key>
-					<dict>
-						<key>TestTargetID</key>
-						<string>D403CFC619BB4495004ABA5B</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>D403CFC219BB4494004ABA5B</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>D403CFBE19BB4494004ABA5B</string>
-			<key>productRefGroup</key>
-			<string>D403CFC819BB4495004ABA5B</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>D403CFC619BB4495004ABA5B</string>
-				<string>D403CFE719BB4495004ABA5B</string>
-			</array>
-		</dict>
-		<key>D403CFC219BB4494004ABA5B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D403CFF719BB4495004ABA5B</string>
-				<string>D403CFF819BB4495004ABA5B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D403CFC319BB4495004ABA5B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D403CFE119BB4495004ABA5B</string>
-				<string>D403CFDB19BB4495004ABA5B</string>
-				<string>D403D01219BC2159004ABA5B</string>
-				<string>D403CFD719BB4495004ABA5B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D403CFC419BB4495004ABA5B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D403CFCD19BB4495004ABA5B</string>
-				<string>D403CFCF19BB4495004ABA5B</string>
-				<string>D403CFCB19BB4495004ABA5B</string>
-				<string>BE317B7817F04CEE9AC2B7EA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D403CFC519BB4495004ABA5B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D403CFE319BB4495004ABA5B</string>
-				<string>D403CFD519BB4495004ABA5B</string>
-				<string>D403CFDE19BB4495004ABA5B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D403CFC619BB4495004ABA5B</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>D403CFF919BB4495004ABA5B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>81E2C227E8B449E390C07B3C</string>
-				<string>D403CFC319BB4495004ABA5B</string>
-				<string>D403CFC419BB4495004ABA5B</string>
-				<string>D403CFC519BB4495004ABA5B</string>
-				<string>4A42FF94560B45849A8CFEC3</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>GestureRecognizerRACExt</string>
-			<key>productName</key>
-			<string>GestureRecognizerRACExt</string>
-			<key>productReference</key>
-			<string>D403CFC719BB4495004ABA5B</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>D403CFC719BB4495004ABA5B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>GestureRecognizerRACExt.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D403CFC819BB4495004ABA5B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D403CFC719BB4495004ABA5B</string>
-				<string>D403CFE819BB4495004ABA5B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D403CFC919BB4495004ABA5B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D403CFCA19BB4495004ABA5B</string>
-				<string>D403CFCC19BB4495004ABA5B</string>
-				<string>D403CFCE19BB4495004ABA5B</string>
-				<string>D403CFE919BB4495004ABA5B</string>
-				<string>87DEC1C1BE6040F498D57ACE</string>
-				<string>BBABFB071F364E9BA851A261</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D403CFCA19BB4495004ABA5B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>D403CFCB19BB4495004ABA5B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D403CFCA19BB4495004ABA5B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D403CFCC19BB4495004ABA5B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>D403CFCD19BB4495004ABA5B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D403CFCC19BB4495004ABA5B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D403CFCE19BB4495004ABA5B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>D403CFCF19BB4495004ABA5B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D403CFCE19BB4495004ABA5B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D403CFD019BB4495004ABA5B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D403CFFF19BB4581004ABA5B</string>
-				<string>D403CFD919BB4495004ABA5B</string>
-				<string>D403CFDA19BB4495004ABA5B</string>
-				<string>D403CFDC19BB4495004ABA5B</string>
-				<string>D403CFDF19BB4495004ABA5B</string>
-				<string>D403CFE019BB4495004ABA5B</string>
-				<string>D403CFE219BB4495004ABA5B</string>
-				<string>D403CFD119BB4495004ABA5B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>GestureRecognizerRACExt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D403CFD119BB4495004ABA5B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D403CFD219BB4495004ABA5B</string>
-				<string>D403CFD319BB4495004ABA5B</string>
-				<string>D403CFD619BB4495004ABA5B</string>
-				<string>D403CFD819BB4495004ABA5B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D403CFD219BB4495004ABA5B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>GestureRecognizerRACExt-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D403CFD319BB4495004ABA5B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D403CFD419BB4495004ABA5B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D403CFD419BB4495004ABA5B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D403CFD519BB4495004ABA5B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D403CFD319BB4495004ABA5B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D403CFD619BB4495004ABA5B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D403CFD719BB4495004ABA5B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D403CFD619BB4495004ABA5B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D403CFD819BB4495004ABA5B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GestureRecognizerRACExt-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D403CFD919BB4495004ABA5B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>KIAppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D403CFDA19BB4495004ABA5B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>KIAppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D403CFDB19BB4495004ABA5B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D403CFDA19BB4495004ABA5B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D403CFDC19BB4495004ABA5B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D403CFDD19BB4495004ABA5B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D403CFDD19BB4495004ABA5B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D403CFDE19BB4495004ABA5B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D403CFDC19BB4495004ABA5B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D403CFDF19BB4495004ABA5B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>KIViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D403CFE019BB4495004ABA5B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>KIViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D403CFE119BB4495004ABA5B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D403CFE019BB4495004ABA5B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D403CFE219BB4495004ABA5B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D403CFE319BB4495004ABA5B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D403CFE219BB4495004ABA5B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D403CFE419BB4495004ABA5B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D403CFF619BB4495004ABA5B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D403CFE519BB4495004ABA5B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D403CFEA19BB4495004ABA5B</string>
-				<string>D403CFEC19BB4495004ABA5B</string>
-				<string>D403CFEB19BB4495004ABA5B</string>
-				<string>C3B9D976BC4A4A258D219C7D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D403CFE619BB4495004ABA5B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D403CFF419BB4495004ABA5B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D403CFE719BB4495004ABA5B</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>D403CFFC19BB4495004ABA5B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>80EE27DF728F42ACA567ADBE</string>
-				<string>D403CFE419BB4495004ABA5B</string>
-				<string>D403CFE519BB4495004ABA5B</string>
-				<string>D403CFE619BB4495004ABA5B</string>
-				<string>86C062D17EE946BB925F345C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>D403CFEE19BB4495004ABA5B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>GestureRecognizerRACExtTests</string>
-			<key>productName</key>
-			<string>GestureRecognizerRACExtTests</string>
-			<key>productReference</key>
-			<string>D403CFE819BB4495004ABA5B</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>D403CFE819BB4495004ABA5B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>GestureRecognizerRACExtTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D403CFE919BB4495004ABA5B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>D403CFEA19BB4495004ABA5B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D403CFE919BB4495004ABA5B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D403CFEB19BB4495004ABA5B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D403CFCA19BB4495004ABA5B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D403CFEC19BB4495004ABA5B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D403CFCE19BB4495004ABA5B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D403CFED19BB4495004ABA5B</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D403CFBF19BB4494004ABA5B</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>D403CFC619BB4495004ABA5B</string>
-			<key>remoteInfo</key>
-			<string>GestureRecognizerRACExt</string>
-		</dict>
-		<key>D403CFEE19BB4495004ABA5B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>D403CFC619BB4495004ABA5B</string>
-			<key>targetProxy</key>
-			<string>D403CFED19BB4495004ABA5B</string>
-		</dict>
-		<key>D403CFEF19BB4495004ABA5B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D403CFF519BB4495004ABA5B</string>
-				<string>D403CFF019BB4495004ABA5B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>GestureRecognizerRACExtTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D403CFF019BB4495004ABA5B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D403CFF119BB4495004ABA5B</string>
-				<string>D403CFF219BB4495004ABA5B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D403CFF119BB4495004ABA5B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>GestureRecognizerRACExtTests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D403CFF219BB4495004ABA5B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D403CFF319BB4495004ABA5B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D403CFF319BB4495004ABA5B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D403CFF419BB4495004ABA5B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D403CFF219BB4495004ABA5B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D403CFF519BB4495004ABA5B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GestureRecognizerRACExtTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D403CFF619BB4495004ABA5B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D403CFF519BB4495004ABA5B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D403CFF719BB4495004ABA5B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D403CFF819BB4495004ABA5B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D403CFF919BB4495004ABA5B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D403CFFA19BB4495004ABA5B</string>
-				<string>D403CFFB19BB4495004ABA5B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D403CFFA19BB4495004ABA5B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>6C93ECF2DD8F4D5CBCC60C32</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>GestureRecognizerRACExt/GestureRecognizerRACExt-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>GestureRecognizerRACExt/GestureRecognizerRACExt-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D403CFFB19BB4495004ABA5B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>6C93ECF2DD8F4D5CBCC60C32</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>GestureRecognizerRACExt/GestureRecognizerRACExt-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>GestureRecognizerRACExt/GestureRecognizerRACExt-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D403CFFC19BB4495004ABA5B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D403CFFD19BB4495004ABA5B</string>
-				<string>D403CFFE19BB4495004ABA5B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D403CFFD19BB4495004ABA5B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7755645B98A34AF6A9919EB2</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/GestureRecognizerRACExt.app/GestureRecognizerRACExt</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>GestureRecognizerRACExt/GestureRecognizerRACExt-Prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>GestureRecognizerRACExtTests/GestureRecognizerRACExtTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D403CFFE19BB4495004ABA5B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7755645B98A34AF6A9919EB2</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/GestureRecognizerRACExt.app/GestureRecognizerRACExt</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>GestureRecognizerRACExt/GestureRecognizerRACExt-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>GestureRecognizerRACExtTests/GestureRecognizerRACExtTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D403CFFF19BB4581004ABA5B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D403D01019BC2159004ABA5B</string>
-				<string>D403D01119BC2159004ABA5B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D403D01019BC2159004ABA5B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UIGestureRecognizer+ReactiveCocoa.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D403D01119BC2159004ABA5B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>UIGestureRecognizer+ReactiveCocoa.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D403D01219BC2159004ABA5B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D403D01119BC2159004ABA5B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D403CFBF19BB4494004ABA5B</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE317B7817F04CEE9AC2B7EA /* libPods-GestureRecognizerRACExt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87DEC1C1BE6040F498D57ACE /* libPods-GestureRecognizerRACExt.a */; };
+		C3B9D976BC4A4A258D219C7D /* libPods-GestureRecognizerRACExtTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBABFB071F364E9BA851A261 /* libPods-GestureRecognizerRACExtTests.a */; };
+		D403CFCB19BB4495004ABA5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D403CFCA19BB4495004ABA5B /* Foundation.framework */; };
+		D403CFCD19BB4495004ABA5B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D403CFCC19BB4495004ABA5B /* CoreGraphics.framework */; };
+		D403CFCF19BB4495004ABA5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D403CFCE19BB4495004ABA5B /* UIKit.framework */; };
+		D403CFD519BB4495004ABA5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D403CFD319BB4495004ABA5B /* InfoPlist.strings */; };
+		D403CFD719BB4495004ABA5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D403CFD619BB4495004ABA5B /* main.m */; };
+		D403CFDB19BB4495004ABA5B /* KIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D403CFDA19BB4495004ABA5B /* KIAppDelegate.m */; };
+		D403CFDE19BB4495004ABA5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D403CFDC19BB4495004ABA5B /* Main.storyboard */; };
+		D403CFE119BB4495004ABA5B /* KIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D403CFE019BB4495004ABA5B /* KIViewController.m */; };
+		D403CFE319BB4495004ABA5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D403CFE219BB4495004ABA5B /* Images.xcassets */; };
+		D403CFEA19BB4495004ABA5B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D403CFE919BB4495004ABA5B /* XCTest.framework */; };
+		D403CFEB19BB4495004ABA5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D403CFCA19BB4495004ABA5B /* Foundation.framework */; };
+		D403CFEC19BB4495004ABA5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D403CFCE19BB4495004ABA5B /* UIKit.framework */; };
+		D403CFF419BB4495004ABA5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D403CFF219BB4495004ABA5B /* InfoPlist.strings */; };
+		D403CFF619BB4495004ABA5B /* GestureRecognizerRACExtTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D403CFF519BB4495004ABA5B /* GestureRecognizerRACExtTests.m */; };
+		D403D01219BC2159004ABA5B /* UIGestureRecognizer+ReactiveCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = D403D01119BC2159004ABA5B /* UIGestureRecognizer+ReactiveCocoa.m */; };
+		D403D01519BC24B8004ABA5B /* RACGestureRecognizerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D403D01419BC24B8004ABA5B /* RACGestureRecognizerDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D403CFED19BB4495004ABA5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D403CFBF19BB4494004ABA5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D403CFC619BB4495004ABA5B;
+			remoteInfo = GestureRecognizerRACExt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C93ECF2DD8F4D5CBCC60C32 /* Pods-GestureRecognizerRACExt.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GestureRecognizerRACExt.xcconfig"; path = "Pods/Pods-GestureRecognizerRACExt.xcconfig"; sourceTree = "<group>"; };
+		7755645B98A34AF6A9919EB2 /* Pods-GestureRecognizerRACExtTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GestureRecognizerRACExtTests.xcconfig"; path = "Pods/Pods-GestureRecognizerRACExtTests.xcconfig"; sourceTree = "<group>"; };
+		87DEC1C1BE6040F498D57ACE /* libPods-GestureRecognizerRACExt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GestureRecognizerRACExt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBABFB071F364E9BA851A261 /* libPods-GestureRecognizerRACExtTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GestureRecognizerRACExtTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D403CFC719BB4495004ABA5B /* GestureRecognizerRACExt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureRecognizerRACExt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D403CFCA19BB4495004ABA5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D403CFCC19BB4495004ABA5B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D403CFCE19BB4495004ABA5B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D403CFD219BB4495004ABA5B /* GestureRecognizerRACExt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GestureRecognizerRACExt-Info.plist"; sourceTree = "<group>"; };
+		D403CFD419BB4495004ABA5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D403CFD619BB4495004ABA5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D403CFD819BB4495004ABA5B /* GestureRecognizerRACExt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GestureRecognizerRACExt-Prefix.pch"; sourceTree = "<group>"; };
+		D403CFD919BB4495004ABA5B /* KIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIAppDelegate.h; sourceTree = "<group>"; };
+		D403CFDA19BB4495004ABA5B /* KIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIAppDelegate.m; sourceTree = "<group>"; };
+		D403CFDD19BB4495004ABA5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D403CFDF19BB4495004ABA5B /* KIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIViewController.h; sourceTree = "<group>"; };
+		D403CFE019BB4495004ABA5B /* KIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIViewController.m; sourceTree = "<group>"; };
+		D403CFE219BB4495004ABA5B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D403CFE819BB4495004ABA5B /* GestureRecognizerRACExtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestureRecognizerRACExtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D403CFE919BB4495004ABA5B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D403CFF119BB4495004ABA5B /* GestureRecognizerRACExtTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GestureRecognizerRACExtTests-Info.plist"; sourceTree = "<group>"; };
+		D403CFF319BB4495004ABA5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D403CFF519BB4495004ABA5B /* GestureRecognizerRACExtTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureRecognizerRACExtTests.m; sourceTree = "<group>"; };
+		D403D01019BC2159004ABA5B /* UIGestureRecognizer+ReactiveCocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+ReactiveCocoa.h"; sourceTree = "<group>"; };
+		D403D01119BC2159004ABA5B /* UIGestureRecognizer+ReactiveCocoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+ReactiveCocoa.m"; sourceTree = "<group>"; };
+		D403D01319BC24B8004ABA5B /* RACGestureRecognizerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACGestureRecognizerDelegate.h; sourceTree = "<group>"; };
+		D403D01419BC24B8004ABA5B /* RACGestureRecognizerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACGestureRecognizerDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D403CFC419BB4495004ABA5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D403CFCD19BB4495004ABA5B /* CoreGraphics.framework in Frameworks */,
+				D403CFCF19BB4495004ABA5B /* UIKit.framework in Frameworks */,
+				D403CFCB19BB4495004ABA5B /* Foundation.framework in Frameworks */,
+				BE317B7817F04CEE9AC2B7EA /* libPods-GestureRecognizerRACExt.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D403CFE519BB4495004ABA5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D403CFEA19BB4495004ABA5B /* XCTest.framework in Frameworks */,
+				D403CFEC19BB4495004ABA5B /* UIKit.framework in Frameworks */,
+				D403CFEB19BB4495004ABA5B /* Foundation.framework in Frameworks */,
+				C3B9D976BC4A4A258D219C7D /* libPods-GestureRecognizerRACExtTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D403CFBE19BB4494004ABA5B = {
+			isa = PBXGroup;
+			children = (
+				D403CFD019BB4495004ABA5B /* GestureRecognizerRACExt */,
+				D403CFEF19BB4495004ABA5B /* GestureRecognizerRACExtTests */,
+				D403CFC919BB4495004ABA5B /* Frameworks */,
+				D403CFC819BB4495004ABA5B /* Products */,
+				6C93ECF2DD8F4D5CBCC60C32 /* Pods-GestureRecognizerRACExt.xcconfig */,
+				7755645B98A34AF6A9919EB2 /* Pods-GestureRecognizerRACExtTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		D403CFC819BB4495004ABA5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D403CFC719BB4495004ABA5B /* GestureRecognizerRACExt.app */,
+				D403CFE819BB4495004ABA5B /* GestureRecognizerRACExtTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D403CFC919BB4495004ABA5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D403CFCA19BB4495004ABA5B /* Foundation.framework */,
+				D403CFCC19BB4495004ABA5B /* CoreGraphics.framework */,
+				D403CFCE19BB4495004ABA5B /* UIKit.framework */,
+				D403CFE919BB4495004ABA5B /* XCTest.framework */,
+				87DEC1C1BE6040F498D57ACE /* libPods-GestureRecognizerRACExt.a */,
+				BBABFB071F364E9BA851A261 /* libPods-GestureRecognizerRACExtTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D403CFD019BB4495004ABA5B /* GestureRecognizerRACExt */ = {
+			isa = PBXGroup;
+			children = (
+				D403CFFF19BB4581004ABA5B /* Classes */,
+				D403CFD919BB4495004ABA5B /* KIAppDelegate.h */,
+				D403CFDA19BB4495004ABA5B /* KIAppDelegate.m */,
+				D403CFDC19BB4495004ABA5B /* Main.storyboard */,
+				D403CFDF19BB4495004ABA5B /* KIViewController.h */,
+				D403CFE019BB4495004ABA5B /* KIViewController.m */,
+				D403CFE219BB4495004ABA5B /* Images.xcassets */,
+				D403CFD119BB4495004ABA5B /* Supporting Files */,
+			);
+			path = GestureRecognizerRACExt;
+			sourceTree = "<group>";
+		};
+		D403CFD119BB4495004ABA5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D403CFD219BB4495004ABA5B /* GestureRecognizerRACExt-Info.plist */,
+				D403CFD319BB4495004ABA5B /* InfoPlist.strings */,
+				D403CFD619BB4495004ABA5B /* main.m */,
+				D403CFD819BB4495004ABA5B /* GestureRecognizerRACExt-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D403CFEF19BB4495004ABA5B /* GestureRecognizerRACExtTests */ = {
+			isa = PBXGroup;
+			children = (
+				D403CFF519BB4495004ABA5B /* GestureRecognizerRACExtTests.m */,
+				D403CFF019BB4495004ABA5B /* Supporting Files */,
+			);
+			path = GestureRecognizerRACExtTests;
+			sourceTree = "<group>";
+		};
+		D403CFF019BB4495004ABA5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D403CFF119BB4495004ABA5B /* GestureRecognizerRACExtTests-Info.plist */,
+				D403CFF219BB4495004ABA5B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D403CFFF19BB4581004ABA5B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D403D01019BC2159004ABA5B /* UIGestureRecognizer+ReactiveCocoa.h */,
+				D403D01119BC2159004ABA5B /* UIGestureRecognizer+ReactiveCocoa.m */,
+				D403D01319BC24B8004ABA5B /* RACGestureRecognizerDelegate.h */,
+				D403D01419BC24B8004ABA5B /* RACGestureRecognizerDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D403CFC619BB4495004ABA5B /* GestureRecognizerRACExt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D403CFF919BB4495004ABA5B /* Build configuration list for PBXNativeTarget "GestureRecognizerRACExt" */;
+			buildPhases = (
+				81E2C227E8B449E390C07B3C /* Check Pods Manifest.lock */,
+				D403CFC319BB4495004ABA5B /* Sources */,
+				D403CFC419BB4495004ABA5B /* Frameworks */,
+				D403CFC519BB4495004ABA5B /* Resources */,
+				4A42FF94560B45849A8CFEC3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GestureRecognizerRACExt;
+			productName = GestureRecognizerRACExt;
+			productReference = D403CFC719BB4495004ABA5B /* GestureRecognizerRACExt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D403CFE719BB4495004ABA5B /* GestureRecognizerRACExtTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D403CFFC19BB4495004ABA5B /* Build configuration list for PBXNativeTarget "GestureRecognizerRACExtTests" */;
+			buildPhases = (
+				80EE27DF728F42ACA567ADBE /* Check Pods Manifest.lock */,
+				D403CFE419BB4495004ABA5B /* Sources */,
+				D403CFE519BB4495004ABA5B /* Frameworks */,
+				D403CFE619BB4495004ABA5B /* Resources */,
+				86C062D17EE946BB925F345C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D403CFEE19BB4495004ABA5B /* PBXTargetDependency */,
+			);
+			name = GestureRecognizerRACExtTests;
+			productName = GestureRecognizerRACExtTests;
+			productReference = D403CFE819BB4495004ABA5B /* GestureRecognizerRACExtTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D403CFBF19BB4494004ABA5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KI;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = kaiinui;
+				TargetAttributes = {
+					D403CFE719BB4495004ABA5B = {
+						TestTargetID = D403CFC619BB4495004ABA5B;
+					};
+				};
+			};
+			buildConfigurationList = D403CFC219BB4494004ABA5B /* Build configuration list for PBXProject "GestureRecognizerRACExt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D403CFBE19BB4494004ABA5B;
+			productRefGroup = D403CFC819BB4495004ABA5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D403CFC619BB4495004ABA5B /* GestureRecognizerRACExt */,
+				D403CFE719BB4495004ABA5B /* GestureRecognizerRACExtTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D403CFC519BB4495004ABA5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D403CFE319BB4495004ABA5B /* Images.xcassets in Resources */,
+				D403CFD519BB4495004ABA5B /* InfoPlist.strings in Resources */,
+				D403CFDE19BB4495004ABA5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D403CFE619BB4495004ABA5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D403CFF419BB4495004ABA5B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A42FF94560B45849A8CFEC3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-GestureRecognizerRACExt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80EE27DF728F42ACA567ADBE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81E2C227E8B449E390C07B3C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		86C062D17EE946BB925F345C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-GestureRecognizerRACExtTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D403CFC319BB4495004ABA5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D403CFE119BB4495004ABA5B /* KIViewController.m in Sources */,
+				D403CFDB19BB4495004ABA5B /* KIAppDelegate.m in Sources */,
+				D403D01519BC24B8004ABA5B /* RACGestureRecognizerDelegate.m in Sources */,
+				D403D01219BC2159004ABA5B /* UIGestureRecognizer+ReactiveCocoa.m in Sources */,
+				D403CFD719BB4495004ABA5B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D403CFE419BB4495004ABA5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D403CFF619BB4495004ABA5B /* GestureRecognizerRACExtTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D403CFEE19BB4495004ABA5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D403CFC619BB4495004ABA5B /* GestureRecognizerRACExt */;
+			targetProxy = D403CFED19BB4495004ABA5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D403CFD319BB4495004ABA5B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D403CFD419BB4495004ABA5B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D403CFDC19BB4495004ABA5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D403CFDD19BB4495004ABA5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D403CFF219BB4495004ABA5B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D403CFF319BB4495004ABA5B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D403CFF719BB4495004ABA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D403CFF819BB4495004ABA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D403CFFA19BB4495004ABA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C93ECF2DD8F4D5CBCC60C32 /* Pods-GestureRecognizerRACExt.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GestureRecognizerRACExt/GestureRecognizerRACExt-Prefix.pch";
+				INFOPLIST_FILE = "GestureRecognizerRACExt/GestureRecognizerRACExt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D403CFFB19BB4495004ABA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C93ECF2DD8F4D5CBCC60C32 /* Pods-GestureRecognizerRACExt.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GestureRecognizerRACExt/GestureRecognizerRACExt-Prefix.pch";
+				INFOPLIST_FILE = "GestureRecognizerRACExt/GestureRecognizerRACExt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D403CFFD19BB4495004ABA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7755645B98A34AF6A9919EB2 /* Pods-GestureRecognizerRACExtTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GestureRecognizerRACExt.app/GestureRecognizerRACExt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GestureRecognizerRACExt/GestureRecognizerRACExt-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GestureRecognizerRACExtTests/GestureRecognizerRACExtTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D403CFFE19BB4495004ABA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7755645B98A34AF6A9919EB2 /* Pods-GestureRecognizerRACExtTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GestureRecognizerRACExt.app/GestureRecognizerRACExt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GestureRecognizerRACExt/GestureRecognizerRACExt-Prefix.pch";
+				INFOPLIST_FILE = "GestureRecognizerRACExtTests/GestureRecognizerRACExtTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D403CFC219BB4494004ABA5B /* Build configuration list for PBXProject "GestureRecognizerRACExt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D403CFF719BB4495004ABA5B /* Debug */,
+				D403CFF819BB4495004ABA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D403CFF919BB4495004ABA5B /* Build configuration list for PBXNativeTarget "GestureRecognizerRACExt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D403CFFA19BB4495004ABA5B /* Debug */,
+				D403CFFB19BB4495004ABA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D403CFFC19BB4495004ABA5B /* Build configuration list for PBXNativeTarget "GestureRecognizerRACExtTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D403CFFD19BB4495004ABA5B /* Debug */,
+				D403CFFE19BB4495004ABA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D403CFBF19BB4494004ABA5B /* Project object */;
+}

@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@class RACSubject;
+
 @interface UIGestureRecognizer (ReactiveCocoa)
 
-@property (nonatomic, strong) NSNumber *rac_gestureDelegate;
+/**
+ To retain UIGestureDelegate in itself.
+ */
+@property (nonatomic, strong) id<UIGestureRecognizerDelegate> rac_gestureDelegate;
+@property (nonatomic, strong) RACSubject *rac_subject;
 
 @end
