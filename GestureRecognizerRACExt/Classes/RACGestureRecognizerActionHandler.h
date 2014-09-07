@@ -10,6 +10,6 @@
 
 @interface RACGestureRecognizerActionHandler : NSObject
 
-- (void)rac_signalGesture:(UIGestureRecognizer *)recognizer;
+- (void)rac_handleGesture:(UIGestureRecognizer *)recognizer;
 
 @end

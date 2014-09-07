@@ -12,9 +12,27 @@
 @class RACSignal;
 @class RACGestureRecognizerActionHandler;
 
-/* TODO: NO DELEGATE! Just set a target and an action! */
-
 @interface UIGestureRecognizer (ReactiveCocoa) // TODO: To make them private, separate them into a category.
+
+# pragma mark - Instantiate
+
+/**
+ public: Instantiate the recognizer.
+ */
++ (instancetype)rac_recognizer;
+
+# pragma mark - RACSignal
+
+/**
+ public: RACSignal from the GestureRecognizer.
+    [[recognizer rac_signal] subscribeNext:^(id x) {
+        UITapGestureRecognizer *recognizer = x; // Cast the signal to the expected recognizer.
+        // Do something
+    }];
+ */
+- (RACSignal *)rac_signal;
+
+# pragma mark - Privates
 
 /**
  private: To retain UIGestureDelegate. The GestureRecognizer's delegate will be
@@ -25,21 +43,5 @@
  protected: To retain subject while recognizing gestures.
  */
 @property (nonatomic, strong) RACSubject *rac_subject;
-
-/**
- protected: Initialize RAC Extensions. (delegate retain, RACSubject initialization)
- Call when initialize inherited GestureRecognizers
- */
-- (void)rac_initializeRAC;
-
-/**
- public: RACSignal from the GestureRecognizer.
- */
-- (RACSignal *)rac_signal;
-
-/**
- public: Instantiate the recognizer.
- */
-+ (instancetype)rac_recognizer;
 
 @end

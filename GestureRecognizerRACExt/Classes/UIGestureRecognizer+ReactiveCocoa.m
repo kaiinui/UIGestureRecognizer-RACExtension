@@ -21,7 +21,7 @@
 + (instancetype)rac_recognizer {
     UIGestureRecognizer *recognizer = [[self alloc] init];
     [recognizer rac_initializeRAC];
-    [recognizer addTarget:recognizer.rac_gestureHandler action:@selector(rac_signalGesture:)];
+    [recognizer addTarget:recognizer.rac_gestureHandler action:@selector(rac_handleGesture:)];
     return recognizer;
 }
 

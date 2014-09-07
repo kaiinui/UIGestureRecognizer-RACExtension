@@ -12,7 +12,7 @@
 
 @implementation RACGestureRecognizerActionHandler
 
-- (void)rac_signalGesture:(UIGestureRecognizer *)recognizer {
+- (void)rac_handleGesture:(UIGestureRecognizer *)recognizer {
     [[recognizer rac_subject] sendNext:recognizer];
 }
 
